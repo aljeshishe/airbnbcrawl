@@ -1,0 +1,110 @@
+GET https://www.airbnb.co.uk/api/v2/autocompletes?country=TR&key=d306zoyjsyarp7ifhu67rjxn52tv0t20&language=en&locale=en-GB&num_results=5&user_input=kas&api_version=1.2.0&satori_config_token=EhIiQRIiIjISEjISIRESIlFCNaoDFQYVWBUCBYoBAAA&vertical_refinement=homes&region=-1&options=should_filter_by_vertical_refinement|hide_nav_results|should_show_stays|simple_search|flex_destinations_june_2021_launch_web_treatment
+
+<> 2022-11-01T220040.200.json
+<> 2022-11-01T220018.200.json
+
+###
+POST https://www.airbnb.ru/api/v3/StaysSearch?operationName=StaysSearch&locale=ru&currency=USD
+accept: */*
+accept-encoding: gzip, deflate, br
+accept-language: en-US,en;q=0.9,ru;q=0.8
+content-length: 2317
+content-type: application/json
+cookie: bev=1667328636_ZDdlYTk3ZDFjYWNh
+device-memory: 8
+dpr: 2
+ect: 4g
+origin: https://www.airbnb.ru
+referer: https://www.airbnb.ru/s/Izmir--%C4%B0zmir--Turkey/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&date_picker_type=calendar&checkin=2022-12-01&checkout=2022-12-05&adults=1&source=structured_search_input_header&search_type=autocomplete_click&price_filter_num_nights=4&query=Izmir%2C%20%C4%B0zmir&flexible_trip_lengths%5B%5D=one_month&flexible_trip_dates%5B%5D=november&drawer_open=false&place_id=ChIJzcpip2LYuxQR_uicpaG7jGI&federated_search_session_id=89b23434-9228-45aa-bd80-f344ed98e8ce&pagination_search=true&cursor=eyJzZWN0aW9uX29mZnNldCI6MiwiaXRlbXNfb2Zmc2V0Ijo2MCwidmVyc2lvbiI6MX0%3D
+sec-ch-ua: "Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "macOS"
+sec-fetch-dest: empty
+sec-fetch-mode: cors
+sec-fetch-site: same-origin
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
+viewport-width: 855
+x-airbnb-api-key: d306zoyjsyarp7ifhu67rjxn52tv0t20
+x-airbnb-graphql-platform: web
+x-airbnb-graphql-platform-client: minimalist-niobe
+x-airbnb-supports-airlock-v2: true
+x-client-request-id: 0a3nrtx0cb3qss012hr2g00810wy
+x-csrf-token: null
+x-csrf-without-token: 1
+x-niobe-short-circuited: true
+
+{
+            "operationName": "StaysSearch",
+            "variables": {
+                "isInitialLoad": true,
+                "hasLoggedIn": false,
+                "cdnCacheSafe": false,
+                "source": "EXPLORE",
+                "exploreRequest": {
+                    "metadataOnly": false,
+                    "version": "1.8.3",
+                    "tabId": "home_tab",
+                    "refinementPaths": [
+                        "/homes"
+                    ],
+                    "flexibleTripLengths": [
+                        "one_week"
+                    ],
+                    "priceFilterInputType": 0,
+                    "priceFilterNumNights": 3,
+                    "placeId": "ChIJzcpip2LYuxQR_uicpaG7jGI",
+                    "datePickerType": "calendar",
+                    "checkin": "2022-11-14",
+                    "checkout": "2022-11-17",
+                    "adults": 1,
+                    "source": "structured_search_input_header",
+                    "searchType": "autocomplete_click",
+                    "federatedSearchSessionId": "3e37c336-400b-48ea-8a18-4d0e6d6aa572",
+                    "itemsOffset": 0,
+                    "itemsPerGrid": 40,
+                    "cdnCacheSafe": false,
+                    "treatmentFlags": [
+                        "flex_destinations_june_2021_launch_web_treatment",
+                        "new_filter_bar_v2_fm_header",
+                        "new_filter_bar_v2_and_fm_treatment",
+                        "merch_header_breakpoint_expansion_web",
+                        "flexible_dates_12_month_lead_time",
+                        "storefronts_nov23_2021_homepage_web_treatment",
+                        "lazy_load_flex_search_map_compact",
+                        "lazy_load_flex_search_map_wide",
+                        "im_flexible_may_2022_treatment",
+                        "im_flexible_may_2022_treatment",
+                        "flex_v2_review_counts_treatment",
+                        "search_add_category_bar_ui_ranking_control_web",
+                        "flexible_dates_options_extend_one_three_seven_days",
+                        "super_date_flexibility",
+                        "micro_flex_improvements",
+                        "micro_flex_show_by_default",
+                        "search_input_placeholder_phrases",
+                        "pets_fee_treatment"
+                    ],
+                    "screenSize": "large",
+                    "isInitialLoad": true,
+                    "hasLoggedIn": false
+                },
+                "staysSearchM2Enabled": false,
+                "staysSearchM3Enabled": false,
+                "staysSearchM6Enabled": false
+            },
+            "extensions": {
+                "persistedQuery": {
+                    "version": 1,
+                    "sha256Hash": "d582c7a9fee19104cedaaed731f76093c46d5490652aa5a91055e40b776a0ff8"
+                }
+            }
+        }
+
+<> 2022-11-01T215743.200.json
+<> 2022-11-01T215308.200.json
+<> 2022-11-01T215134.200.json
+<> 2022-11-01T215111.200.json
+<> 2022-11-01T214129.200.json
+<> 2022-11-01T214107.200.json
+<> 2022-11-01T214001.200.json
+<> 2022-11-01T213843.200.json
+###
