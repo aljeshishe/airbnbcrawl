@@ -1,6 +1,6 @@
 import json
 
-from airbnbcrawl.stay_search import normalize
+from airbnbcrawl.place import normalize
 
 
 class TestNormalize:

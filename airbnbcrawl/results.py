@@ -7,8 +7,8 @@ class Results:
         self.artifacts = artifacts
         self.data = []
 
-    def on_new_item(self, d: dict[str, Any]):
-        self.data.append(d)
+    def on_new_item(self, item: dict[str, Any]):
+        self.data.append(item)
 
     def dump(self):
         data = pd.json_normalize(self.data)

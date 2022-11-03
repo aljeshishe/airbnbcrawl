@@ -95,3 +95,11 @@ data = {
         }
     }
 }
+
+AUTO_COMPLETE_URL = 'https://www.airbnb.com/api/v2/autocompletes?country=TR&key=d306zoyjsyarp7ifhu67rjxn52tv0t20&' \
+                    'language=en&locale=en-GB&num_results=5&user_input={query}&api_version=1.2.0&' \
+                    'satori_config_token=EhIiQRIiIjISEjISIRESIlFCNaoDFQYVWBUCBYoBAAA&vertical_refinement=homes&' \
+                    'region=-1&options=should_filter_by_vertical_refinement|hide_nav_results|' \
+                    'should_show_stays|simple_search|flex_destinations_june_2021_launch_web_treatment'
+
+STAY_SEARCH_URL = 'https://www.airbnb.ru/api/v3/StaysSearch?operationName=StaysSearch&locale=ru&currency=USD'
