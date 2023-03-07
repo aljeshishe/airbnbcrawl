@@ -27,7 +27,7 @@ jupyter = "^1.0.0"
 requests-mock = "^1.10.0"
 
 [tool.poetry.group.test.dependencies]
-mypy = "^0.982"
+mypy = "^1.1"
 
 wemake-python-styleguide = "^0.17"
 flake8-pytest-style = "^1.6"
